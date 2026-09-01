@@ -1,21 +1,22 @@
 from flask import Flask
 import threading
+import os
 
 app = Flask('')
 
 @app.route('/')
 def home():
-    I am alive!
-    return "I am alive!"
+    return "Bot is active!"
 
 def run():
-    app.run(host='0.0.0.0', port=10000)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host='0.0.0.0', port=port)
 
 def keep_alive():
     t = threading.Thread(target=run)
     t.start()
 
-# استدعاء دالة التشغيل الوهمي قبل بدء البوت
+# تشغيل السيرفر الوهمي أولاً
 keep_alive()
 
 import os
