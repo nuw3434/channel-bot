@@ -8,7 +8,7 @@ import requests
 #   BOT SETTINGS
 # =========================================================
 
-TOKEN = "624856590:AAEpH8z4RdVxueSiGLXP"
+TOKEN = "624856590:AAEpH8z4RdVxueSiGLXPscWtf1YypaPHDbE"
 # تم استبدال الأيدي الشخصي بمعرّف القروب (سواء كان قروب عادي أو سوبر قروب بالسالب أو الموجب)
 ADMIN_ID = "1443697465"
 
