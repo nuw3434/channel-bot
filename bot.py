@@ -1,3 +1,23 @@
+from flask import Flask
+import threading
+
+app = Flask('')
+
+@app.route('/')
+def home():
+    I am alive!
+    return "I am alive!"
+
+def run():
+    app.run(host='0.0.0.0', port=10000)
+
+def keep_alive():
+    t = threading.Thread(target=run)
+    t.start()
+
+# استدعاء دالة التشغيل الوهمي قبل بدء البوت
+keep_alive()
+
 import os
 import time
 import json
