@@ -1,0 +1,18 @@
+{
+    "channels": [],
+    "groups": [],
+    "from": [],
+    "ads": [],
+    "running": true,
+    "next_source": 0,
+    "settings": {
+        "duration": 30,
+        "targets": 5,
+        "sources": 3
+    },
+    "stats": {
+        "sent": 0,
+        "failed": 0,
+        "rounds": 0
+    }
+}
