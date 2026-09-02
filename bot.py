@@ -9,8 +9,8 @@ from flask import Flask
 #   BOT SETTINGS & WEB SERVER (FOR RENDER)
 # =========================================================
 
-TOKEN = "624856590:AAEpH8z4RdVxueSiGLXPscWtf"
-ADMIN_ID = "1443697465"
+TOKEN = "624856590:AAEpH8z4RdVxueSiGLXPscWtf1YypaPHDbE"
+ADMIN_ID = "-1001443697465"
 
 DEFAULT_DURATION = 30
 DEFAULT_TARGETS = 5
